@@ -4,9 +4,11 @@ import Home from './pages/Home';
 import Detail from './pages/Detail';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import PageContainer from './container/PageContainer';
 
 function App() {
   return (
+    <PageContainer>
     <BrowserRouter>
     <Navbar /> 
     <Routes>
@@ -15,6 +17,7 @@ function App() {
     </Routes>
     <Footer />
   </BrowserRouter>
+  </PageContainer>
   );
 }
 
