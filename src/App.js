@@ -5,8 +5,11 @@ import Detail from './pages/Detail';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import PageContainer from './container/PageContainer';
+import { useSelector } from 'react-redux';
 
 function App() {
+  const {drawer}= useSelector(state => state.drawer);
+  console.log("drawer : " , drawer)
   return (
     <PageContainer>
     <BrowserRouter>
