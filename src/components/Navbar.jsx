@@ -1,5 +1,5 @@
 import React from "react";
-
+import {BsLightbulb} from 'react-icons/bs'
 const Navbar = () => {
   return (
   
@@ -7,7 +7,9 @@ const Navbar = () => {
     <div>LOGO</div>
     <div>
         <input type="text" placeholder="Search" />
-
+    </div>
+    <div> 
+    <BsLightbulb />
     </div>
   </div>
   
