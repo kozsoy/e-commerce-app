@@ -1,18 +1,15 @@
 
 
 
-const productsReducer = (state = {products : []} , action) => {
-    
-    switch (action.type) {
+const productsReducer = (state={products:[]},action) => {
+    switch (action.tye) {
         case "GET_PRODUCTS":
             
             return{
-                products:action.payload
+                products: action.payload
             }
     
         default:
             return state;
     }
-
-
 }
