@@ -27,7 +27,7 @@ const Navbar = () => {
     <div className="flex items-center justify-between px-3 h-20">
       <div className="text-2xl font-bold tracking-wider">LOGO</div>
       <div>
-        <input className="border p-1 outline-none rounded-md" type="text" placeholder="Search" />
+        <input className="border p-1 outline-none rounded-md hover:border-black" type="text" placeholder="Search" />
       </div>
       <div onClick={()=>setColor(!color)}>
 
@@ -39,7 +39,7 @@ const Navbar = () => {
         
       </div>
       <div onClick={()=>dispatch({type:'DRAWER' , payload:true})} className="relative">
-        <BsBasket size={25} className="cursor-pointer" />
+        <BsBasket size={25} className="cursor-pointer hover:bg-red-600" />
         <span className=" absolute -top-2 -right-3 px-2 text-white bg-red-600 rounded-full text-sm">
           3
         </span>
