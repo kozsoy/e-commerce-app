@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between px-3 h-20">
       <div className="text-2xl font-bold tracking-wider">LOGO</div>
-      <div>
+      <div className="flex items-center space-x-4"> 
         <input className="border p-1 outline-none rounded-md hover:border-black" type="text" placeholder="Search" />
       </div>
       <div onClick={()=>setColor(!color)}>

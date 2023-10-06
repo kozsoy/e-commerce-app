@@ -14,7 +14,7 @@ const Card = () => {
    dispatch({type:'DRAWER' , payload : false})
   }
   return (
-    <div  className='w-1/3 h-full border fixed top-0 right-0 z-50 bg-slate-50 ' >
+    <div  className='w-1/3 h-full border fixed top-0 right-0 z-50 ' >
 
         <div className='flex justify-between p-3'>
           <h1 className='text-2xl'>SEPETİM</h1>

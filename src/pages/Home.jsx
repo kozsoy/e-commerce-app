@@ -1,16 +1,38 @@
-import React from 'react'
-import {useSelector} from 'react-redux'
+import React from "react";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { productsActions } from "../redux/actions/products";
+import ProductsCard from "../components/ProductsCard";
 
 const Home = () => {
+  const dispatch = useDispatch();
   
-  const {products} = useSelector(state => state.products)
+  const { products } = useSelector((state) => state.products);
 
-  console.log(products)
+  useEffect(() => {
+    
+    dispatch(productsActions());
   
-  return (
+  }, [dispatch]);
   
-    <div>Home </div>
-  )
-}
+  console.log("Fiyat : " , products );
 
-export default Home
+  return ( 
+  
+  <div className="flex flex-wrap justify-center">
+
+    {
+      products && products.map((prod , i ) => (
+        <ProductsCard key={i} prod={prod} />
+      ))
+
+      
+    }
+
+
+ </div>)
+
+
+};
+
+export default Home;
