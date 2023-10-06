@@ -1,7 +1,7 @@
 
 
 
-const productsReducer = (state={products:[]},action) => {
+export const productsReducer = (state={products:[]},action) => {
     switch (action.tye) {
         case "GET_PRODUCTS":
             
