@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Detail from './pages/Detail';
@@ -8,10 +8,13 @@ import Card from './components/Card';
 import PageContainer from './container/PageContainer';
 import { useSelector } from 'react-redux';
 
+
 function App() {
   const {drawer}= useSelector(state => state.drawer);
+
   
   return (
+  
     <PageContainer>
     <BrowserRouter>
     <Navbar /> 

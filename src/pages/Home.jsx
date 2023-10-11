@@ -15,7 +15,6 @@ const Home = () => {
   
   }, [dispatch]);
   
-  console.log("Fiyat : " , products );
 
   return ( 
   
