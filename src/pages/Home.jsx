@@ -7,7 +7,7 @@ import ProductsCard from "../components/ProductsCard";
 const Home = () => {
   const dispatch = useDispatch();
   
-  const { products } = useSelector((state) => state.products);
+  const { products } = useSelector(state => state.products);
 
   useEffect(() => {
     

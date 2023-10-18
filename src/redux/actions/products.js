@@ -7,5 +7,29 @@ export const productsActions = () => async (dispatch) => {
  }
 
  
+ export const productsActionsDetail = (id) => async (dispatch) => {
+        const data = await fetch(`https://api.escuelajs.co/api/v1/products/${id}`)
+        .then(res=>res.json())
+        dispatch({type:"GET_DETAILS" , payload:data})
+ }
 
- /*'https://fakestoreapi.com/products' */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
