@@ -17,7 +17,8 @@ const Detail = () => {
   console.log("ürün : ", product);
 
   return (
-    <div className="w-full flex justify-center items-center space-x-10 mt-10">
+    
+      <div className="w-full flex justify-center items-center space-x-10 mt-10">
      
       <img className="w-1/3 rounded-2xl" src={product?.images} alt="" />
      
@@ -34,6 +35,9 @@ const Detail = () => {
       </div>
     
     </div>
+   
+    
+    
   );
 };
 

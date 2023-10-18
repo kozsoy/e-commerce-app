@@ -35,6 +35,52 @@ const Card = () => {
             </div>
             <div className='w-10 bg-red-500 text-white flex justify-center items-center font-bold rounded-md cursor-pointer hover:bg-red-950  '>Sil</div>
         </div>
+        <div className='h-34 space-x-2 flex items-center justify-between border-b-2 border-gray-400 ' >
+          <img className='h-32 ' src="https://cdn.dsmcdn.com/ty278/product/media/images/20211221/11/14330638/86748136/1/1_org_zoom.jpg" alt="" />
+          <div className='w-44 '>
+              <div className='font-bold text-sm'>
+              Practical Title Concrete 
+            </div>
+            <div className='text-xs  opacity-60'>
+            Bacon Practical Concrete Bacon Practical Concrete Bacon
+              </div>
+            </div>
+            <div className='font-bold text-sm'>
+              Fiyat : 199 TL 
+            </div>
+            <div className='w-10 bg-red-500 text-white flex justify-center items-center font-bold rounded-md cursor-pointer hover:bg-red-950  '>Sil</div>
+        </div>
+        <div className='h-34 space-x-2 flex items-center justify-between border-b-2 border-gray-400 ' >
+          <img className='h-32 ' src="https://cdn.dsmcdn.com/ty278/product/media/images/20211221/11/14330638/86748136/1/1_org_zoom.jpg" alt="" />
+          <div className='w-44 '>
+              <div className='font-bold text-sm'>
+              Practical Title Concrete 
+            </div>
+            <div className='text-xs  opacity-60'>
+            Bacon Practical Concrete Bacon Practical Concrete Bacon
+              </div>
+            </div>
+            <div className='font-bold text-sm'>
+              Fiyat : 199 TL 
+            </div>
+            <div className='w-10 bg-red-500 text-white flex justify-center items-center font-bold rounded-md cursor-pointer hover:bg-red-950  '>Sil</div>
+        </div>
+        <div className='h-34 space-x-2 flex items-center justify-between border-b-2 border-gray-400 ' >
+          <img className='h-32 ' src="https://cdn.dsmcdn.com/ty278/product/media/images/20211221/11/14330638/86748136/1/1_org_zoom.jpg" alt="" />
+          <div className='w-44 '>
+              <div className='font-bold text-sm'>
+              Practical Title Concrete 
+            </div>
+            <div className='text-xs  opacity-60'>
+            Bacon Practical Concrete Bacon Practical Concrete Bacon
+              </div>
+            </div>
+            <div className='font-bold text-sm'>
+              Fiyat : 199 TL 
+            </div>
+            <div className='w-10 bg-red-500 text-white flex justify-center items-center font-bold rounded-md cursor-pointer hover:bg-red-950  '>Sil</div>
+        </div>
+       
 
 
 
