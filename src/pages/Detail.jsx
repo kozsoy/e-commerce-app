@@ -17,17 +17,19 @@ const Detail = () => {
   console.log("ürün : ", product);
 
   return (
-    <div className="w-full flex justify-center space-x-10 mt-10">
+    <div className="w-full flex justify-center items-center space-x-10 mt-10">
      
-      <img className="w-1/3" src={product?.images} alt="" />
+      <img className="w-1/3 rounded-2xl" src={product?.images} alt="" />
      
       <div className="w-2/3 space-y-5">
      
-        <div className="font-bold text-xl">{product?.title}</div>
+        <div className="font-bold text-xl flex items-center justify-center">{product?.title}</div>
      
         <div className="text-xs opacity-70">{product?.description}</div>
-        <div>Fiyat : {product.price} TL</div>
-
+        <div className="font-bold flex items-center justify-center ">Fiyat : {product?.price} TL</div>
+        <div>
+          <button className='font-bold w-full border rounded-md p-3 hover:bg-green-500   bg-indigo-600 text-white'>SEPETE EKLE</button>
+        </div>
 
       </div>
     
