@@ -25,7 +25,7 @@ const Detail = () => {
      
         <div className="font-bold text-xl flex items-center justify-center">{product?.title}</div>
      
-        <div className="text-xs opacity-70">{product?.description}</div>
+        <div className="text-xs opacity-70 flex items-center justify-center">{product?.description}</div>
         <div className="font-bold flex items-center justify-center ">Fiyat : {product?.price} TL</div>
         <div>
           <button className='font-bold w-full border rounded-md p-3 hover:bg-green-500   bg-indigo-600 text-white'>SEPETE EKLE</button>
